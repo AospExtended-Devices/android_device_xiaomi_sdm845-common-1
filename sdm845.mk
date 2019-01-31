@@ -136,6 +136,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
+# ThermalController app
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
