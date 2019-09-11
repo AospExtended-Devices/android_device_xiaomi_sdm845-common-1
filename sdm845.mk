@@ -137,6 +137,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
+    libdisplayconfig \
+    libqdMetaData \
+    libqdMetaData.system \
     libtinyxml \
     libvulkan \
     memtrack.sdm845 \
@@ -334,13 +337,11 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
 
 # WiFi Display
-PRODUCT_PACKAGES += \
-    libdisplayconfig \
-    libnl \
-    libqdMetaData.system
+#PRODUCT_PACKAGES += \
+#    libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Set boot SPL
 BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
